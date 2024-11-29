@@ -1,36 +1,35 @@
-Pomodoro Timer
-A simple Pomodoro timer application built with Python using the Tkinter library for the graphical user interface (GUI) and the Pillow library for handling images. The app helps users manage their time efficiently using the Pomodoro technique, which involves working for 25 minutes followed by a short break, and after four cycles, a long break is taken.
+Pomodoro Timer App
+This is a simple Pomodoro Timer application built with Python and Tkinter for the graphical user interface (GUI). The app helps users stay focused by using the Pomodoro technique, which breaks work into intervals of 25 minutes of focused work, followed by a short break.
 
-Features
-Pomodoro Timer: Works in cycles of 25 minutes of work followed by a 5-minute short break.
+Features:
 
-Long Break: After completing four Pomodoro cycles, a long break of 20 minutes is taken.
+Customizable Timer: Set work intervals and break durations.
 
-Customizable Background: The app displays random images from a specified folder as the background during each session.
+Random Backgrounds: Display random images as backgrounds to enhance the user experience.
+
+Start/Reset Functionality: Start and reset the timer with a click of a button.
+
+Task Tracking: Checkmarks show how many work intervals have been completed.
+
+Clean Interface: A visually simple and effective layout to track your work.
+
+Technologies Used:
+Python: Main programming language used.
+Tkinter: Used for building the graphical user interface (GUI).
+Pillow: Python Imaging Library (PIL) to handle and display background images.
 
 
-UI Components:
-Displays the timer countdown.
-Shows the current session type (work or break).
-Buttons to start and reset the timer.
-A checkmark is displayed after completing each Pomodoro session.
+Installation Instructions:
 
+Clone the repository:
+git clone https://github.com/your-username/pomodoro-timer.git
 
-Requirements
-Make sure you have Python 3.6+ installed
+Navigate to the project folder:
+cd pomodoro-timer
 
-then run 
-
-pip install pillow
-Pillow for image handling.
-
+Install the required dependencies:
 pip install tk
-Tkinter for the GUI.
+pip install pillow
 
-Add images to the Assets folder.
-
-Make sure to place any images you want to use as backgrounds in the Assets folder. The app will select a random image from this folder to display as the background.
-
-To start the Pomodoro timer, run the main.py script:
-
-python3 main.py
+Run the application:
+python main.py
